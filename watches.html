@@ -1,0 +1,1429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AUCTION WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Ios Animation Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css lins & Bootstap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" style="z-index: 100;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="image/logo-masthead-white__large.png" alt="Image is not found">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu cf">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="watches.html">Auctions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="submenu">
+                            <li><a class="dropdown-item" href="watches.html">watch</a></li>
+                            <li><a class="dropdown-item" href="Jewellery.html">Jewellery</a></li>
+                            <li><a class="dropdown-item" href="Handbag.html">Handbags</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-light mx-3" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-bag-plus" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5" />
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                        </svg></button>
+                    <br>
+                    <button type="button" class="btn position-relative btn-outline-light ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-bell" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6" />
+                        </svg>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            99+
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Vintage Watches Section -->
+    <section>
+        <div class="container-fluid">
+            <div class="row text-center d-flex align-items-center vintage_watches">
+                <div class="col-md-12 z-1">
+                    <h1 class=" text-white ">Vintage Watches</h1>
+                    <h5 class="text-white" style="text-decoration: none; font-weight: lighter; "> Home
+                        <span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="22"
+                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg></span> <span class="text-decoration-underline">Vintage Watches</span>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <!-- latest Auction -->
+        <div class="title-subtile-holder">
+            <h2 class="section-title text-center text-white" style="word-spacing: 8px;">Latest Vintage Watches</h2>
+            <br>
+            <div class="svg-border text-center"><svg style="width: 100%;" height="25" viewBox="0 0 275 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect y="7" style="width: 43%;" height="1" fill="#CCCCCC"></rect>
+                    <rect x="155" y="7" style="width: 45%;" height="1" fill="#CCCCCC"></rect>
+                    <path
+                        d="M144.443 14.6458C144.207 14.8818 143.897 15 143.588 15C143.278 15 142.968 14.8818 142.732 14.6454L137.874 9.78689C137.517 9.43023 137.43 8.90654 137.612 8.46798L136.617 7.47264L135.242 8.84723C135.517 9.2862 135.458 9.8809 135.066 10.2714C134.614 10.7245 133.888 10.7342 133.448 10.2936L130.324 7.17126C129.883 6.73028 129.893 6.00566 130.347 5.55298C130.738 5.16122 131.332 5.10231 131.771 5.37788L135.378 1.77014C135.102 1.33158 135.161 0.737682 135.553 0.346326C136.006 -0.10676 136.73 -0.116443 137.171 0.324136L140.295 3.44732C140.736 3.8879 140.726 4.61251 140.272 5.0656C139.88 5.45736 139.287 5.51586 138.849 5.2407L137.472 6.6169L138.59 7.73449C138.945 7.69334 139.314 7.80348 139.586 8.07622L144.444 12.9347C144.916 13.4071 144.916 14.1729 144.443 14.6458Z"
+                        fill="#be263f"></path>
+                </svg></div>
+        </div>
+        <br><br>
+        <div class="container-fluid">
+            <div class="row" data-aos="zoom-in">
+                <div class="col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/99643707be4f54d736a853d83dcf0edb.jpg"
+                            alt="Spinning glass cube" />
+                    </a>
+                    <br>
+                    <main class="main-content">
+                        <h1>Current Bid 40$</h1>
+                        <p>Diamond Cartier de Calibre Men's Watch</p>
+
+                        <div class="ratting-star ">
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm " data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class=" col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/vintage-5.avif"
+                            alt="Spinning glass cube" />
+                    </a>
+                    <br>
+                    <main class="main-content">
+                        <h1>Current Bid 58$</h1>
+                        <p>Vintage Helbros Watch Men Silver Tone 91-7 2115</p>
+                        <div class="ratting-star ">
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm " data-bs-toggle="modal" data-bs-target="#staticBackdrop1"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class="col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/vintage-3.jpg"
+                            alt="Spinning glass cube" />
+                    </a>
+                    <br>
+                    <main class="main-content">
+
+                        <h1>Current Bid 42$</h1>
+                        <div class="ratting-star ">
+                            <p>Beautiful Watch Seiko Slim Tank Vintage Quartz Men's</p>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm " data-bs-toggle="modal" data-bs-target="#staticBackdrop2"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class=" col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/pexels-photo-280250.jpeg"
+                            alt="Spinning glass cube" />
+                    </a>
+                    <br>
+
+                    <main class="main-content">
+                        <h1>Current Bid 35$</h1>
+                        <div class="ratting-star ">
+                            <p>Rare Roamer Brevete Swiss Mens Manual Watch </p>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm" data-bs-toggle="modal" data-bs-target="#staticBackdrop3"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+
+        <div class="title-subtile-holder">
+            <h2 class="section-title text-center text-white" style="word-spacing: 8px;">Ladies Watches</h2>
+            <br>
+            <div class="svg-border text-center"><svg style="width: 100%;" height="25" viewBox="0 0 275 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect y="7" style="width: 43%;" height="1" fill="#CCCCCC"></rect>
+                    <rect x="155" y="7" style="width: 45%;" height="1" fill="#CCCCCC"></rect>
+                    <path
+                        d="M144.443 14.6458C144.207 14.8818 143.897 15 143.588 15C143.278 15 142.968 14.8818 142.732 14.6454L137.874 9.78689C137.517 9.43023 137.43 8.90654 137.612 8.46798L136.617 7.47264L135.242 8.84723C135.517 9.2862 135.458 9.8809 135.066 10.2714C134.614 10.7245 133.888 10.7342 133.448 10.2936L130.324 7.17126C129.883 6.73028 129.893 6.00566 130.347 5.55298C130.738 5.16122 131.332 5.10231 131.771 5.37788L135.378 1.77014C135.102 1.33158 135.161 0.737682 135.553 0.346326C136.006 -0.10676 136.73 -0.116443 137.171 0.324136L140.295 3.44732C140.736 3.8879 140.726 4.61251 140.272 5.0656C139.88 5.45736 139.287 5.51586 138.849 5.2407L137.472 6.6169L138.59 7.73449C138.945 7.69334 139.314 7.80348 139.586 8.07622L144.444 12.9347C144.916 13.4071 144.916 14.1729 144.443 14.6458Z"
+                        fill="#be263f"></path>
+                </svg></div>
+        </div>
+        <br><br>
+        <div class="container-fluid">
+            <div class="row" data-aos="zoom-in">
+                <div class="col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;"
+                            src="image/3_9e66934c-28f1-417d-b44d-6c0b8fe1446a.webp" alt="Spinning glass cube" />
+                    </a>
+                    <br>
+
+                    <main class="main-content">
+                        <h1>Current Bid 40$</h1>
+                        <p>Multi-Functional Quartz Watch Fashion Women's </p>
+
+                        <div class="ratting-star ">
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm " data-bs-target="#staticBackdrop5" data-bs-toggle="modal"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class=" col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/ladies-watch.jpg"
+                            alt="Spinning glass cube" />
+                    </a>
+                    <br>
+                    <main class="main-content">
+                        <h1>Current Bid 58$</h1>
+                        <p>Olevs New Brand Quartz Watch High-Grade Tungsten Steel</p>
+                        <div class="ratting-star ">
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm " data-bs-target="#staticBackdrop6" data-bs-toggle="modal"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class="col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;"
+                            src="image/5_72dba5f5-8330-4292-8d54-7453ddde3b92.webp" alt="Spinning glass cube" />
+                    </a>
+                    <br>
+                    <main class="main-content">
+
+                        <h1>Current Bid 42$</h1>
+                        <div class="ratting-star ">
+                            <p>Oubaoer Genuine Goods Women's Diamond Waterproof </p>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm " data-bs-target="#staticBackdrop7" data-bs-toggle="modal"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class=" col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/8.webp" alt="Spinning glass cube" />
+                    </a>
+                    <br>
+
+                    <main class="main-content">
+                        <h1>Current Bid 35$</h1>
+                        <div class="ratting-star ">
+                            <p>Retro Quartz Ladies Luminous Watch Watch Belt Diamond</p>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm" data-bs-target="#staticBackdrop8" data-bs-toggle="modal"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <div class="title-subtile-holder">
+            <h2 class="section-title text-center text-white" style="word-spacing: 8px;">Couple Watches</h2>
+            <br>
+            <div class="svg-border text-center"><svg style="width: 100%;" height="25" viewBox="0 0 275 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect y="7" style="width: 43%;" height="1" fill="#CCCCCC"></rect>
+                    <rect x="155" y="7" style="width: 45%;" height="1" fill="#CCCCCC"></rect>
+                    <path
+                        d="M144.443 14.6458C144.207 14.8818 143.897 15 143.588 15C143.278 15 142.968 14.8818 142.732 14.6454L137.874 9.78689C137.517 9.43023 137.43 8.90654 137.612 8.46798L136.617 7.47264L135.242 8.84723C135.517 9.2862 135.458 9.8809 135.066 10.2714C134.614 10.7245 133.888 10.7342 133.448 10.2936L130.324 7.17126C129.883 6.73028 129.893 6.00566 130.347 5.55298C130.738 5.16122 131.332 5.10231 131.771 5.37788L135.378 1.77014C135.102 1.33158 135.161 0.737682 135.553 0.346326C136.006 -0.10676 136.73 -0.116443 137.171 0.324136L140.295 3.44732C140.736 3.8879 140.726 4.61251 140.272 5.0656C139.88 5.45736 139.287 5.51586 138.849 5.2407L137.472 6.6169L138.59 7.73449C138.945 7.69334 139.314 7.80348 139.586 8.07622L144.444 12.9347C144.916 13.4071 144.916 14.1729 144.443 14.6458Z"
+                        fill="#be263f"></path>
+                </svg></div>
+        </div>
+        <br><br>
+        <div class="container-fluid">
+            <div class="row" data-aos="zoom-in">
+                <div class="col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/couple-w-1.jpg"
+                            alt="Spinning glass cube" />
+                    </a>
+                    <br>
+
+                    <main class="main-content">
+                        <h1>Current Bid 40$</h1>
+                        <p>Couple's Quartz Watch Stainless Steel Strap Luxury </p>
+
+                        <div class="ratting-star ">
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm " data-bs-target="#staticBackdrop9" data-bs-toggle="modal"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class=" col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/couple-w-2.jpg"
+                            alt="Spinning glass cube" />
+                    </a>
+                    <br>
+                    <main class="main-content">
+                        <h1>Current Bid 58$</h1>
+                        <p>Couple Fashion Nylon strap Analog Quartz Round </p>
+                        <div class="ratting-star ">
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm " data-bs-target="#staticBackdrop10" data-bs-toggle="modal"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class="col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/couple-w-3.jpg"
+                            alt="Spinning glass cube" />
+                    </a>
+                    <br>
+                    <main class="main-content">
+
+                        <h1>Current Bid 42$</h1>
+                        <div class="ratting-star ">
+                            <p>CHENXI Men Women Waterproof Couple Watch </p>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm " data-bs-target="#staticBackdrop11" data-bs-toggle="modal"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class=" col-md-6 card-container">
+                    <a href="/" class="hero-image-container">
+                        <img class="hero-image" style="height: 200px;" src="image/couple-w-4.jpg"
+                            alt="Spinning glass cube" />
+                    </a>
+                    <br>
+
+                    <main class="main-content">
+                        <h1>Current Bid 35$</h1>
+                        <div class="ratting-star ">
+                            <p>Couples Men Women Classic Quartz Decoration Date</p>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star" style="color: yellow;"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                        <div class="flex-row">
+                            <div class="coin-base">
+                                <button class="btn btn-sm" data-bs-target="#staticBackdrop12" data-bs-toggle="modal"
+                                    href="#">Place Bid</button>
+                            </div>
+                            <div class="time-left">
+                                <h2>3 days left</h2>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+
+    </section>
+    <!-- Move To Next page btn-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md slide_btn">
+                <div class="menu_slide">
+                    <a href="watches.html"> <button type="button"
+                            style="background-color:white ; color: black;">01</button></a>
+                    <a href="Jewellery.html"> <button type="button">02</button></a>
+                    <a href="Handbag.html"> <button type="button">03</button></a>
+                    <a href="watches.html"> <button type="button"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                                height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+
+
+
+    <!-- card 1 Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/99643707be4f54d736a853d83dcf0edb.jpg" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2>Diamond Men's Watch</h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+                                <!-- <button class="btn btn-danger"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-primary"><i class="bi bi-eye"></i></button> -->
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2 modal -->
+    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/vintage-5.avif" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2>Diamond Women's Watch</h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 modal -->
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/vintage-3.jpg" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2> Bridal Jewellery Set</h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card 4 modal -->
+    <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/pexels-photo-280250.jpeg" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2> Bridal Jewellery Set</h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card 5 modal -->
+    <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/3_9e66934c-28f1-417d-b44d-6c0b8fe1446a.webp" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2>Multi-Functional Quartz Watch Fashion Women's </h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card 6 modal -->
+    <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/ladies-watch.jpg" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2> Bridal Jewellery Set</h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card 7 modal -->
+    <div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/5_72dba5f5-8330-4292-8d54-7453ddde3b92.webp" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2> Oubaoer Genuine Goods Women's Diamond Waterproof </h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card 8 modal -->
+    <div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/8.webp" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2> Bridal Jewellery Set</h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card 9 modal -->
+    <div class="modal fade" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/couple-w-1.jpg" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2> Couple's Quartz Watch Stainless Steel Strap Luxury </h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card 10 modal -->
+    <div class="modal fade" id="staticBackdrop10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/couple-w-2.jpg" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2> Bridal Jewellery Set</h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card 11 modal -->
+    <div class="modal fade" id="staticBackdrop11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/couple-w-3.jpg" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2>CHENXI Men Women Waterproof Couple Watch</h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card 12 modal -->
+    <div class="modal fade" id="staticBackdrop12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="product-detail-container" style=" background-color: #f6f0fa;">
+                            <!-- Product Image -->
+                            <div class="product-image position-relative">
+                                <a href="/" class="hero-image-container">
+                                    <img src="image/couple-w-4.jpg" alt="Product Image">
+                                </a>
+                                <div class="product-badge">NO RESERVE</div>
+                            </div>
+
+                            <!-- Product Information -->
+                            <div class="product-info fw-bold">
+                                <h2> Bridal Jewellery Set</h2>
+                                <p class="text-black fw-bold">Product galati a reality sandwich before you walk back in
+                                    that boardroom fire up your browser, so come up with something buzzworthy.</p>
+                                <p class="starting-bid">Starting bid: $45.00</p>
+
+                                <hr>
+
+                                <p class="text-black fw-bold"><strong>Item condition:</strong> New</p>
+
+
+
+
+                                <!-- Auction End Time -->
+                                <p class="text-black fw-bold" class="mt-3"><strong>Auction ends:</strong> December 27,
+                                    2024, 12:00 am</p>
+
+                                <!-- Bid Controls -->
+                                <div class="bid-controls text-black fw-bold">
+                                    <button class="btn btn-outline-secondary decreaseBid">-</button>
+                                    <span class="bid-amount" data-bid="45.00">$45.00</span>
+                                    <button class="btn btn-outline-secondary increaseBid">+</button>
+
+                                </div>
+
+
+                                <!-- Buy Now Button -->
+                                <button class="buy-now-btn mt-3">BUY NOW FOR $150.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>auction@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="image/logo-masthead-white__large.png" class="img-fluid"
+                                        alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor
+                                    incididuntut consec tetur adipisicing
+                                    elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://www.twitter.com/"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://www.google-bg.com/"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3 class="">Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="watches.html">Auction</a></li>
+                                <li><a href="About.html">About Us</a></li>
+                                <li><a href="Contact.tml">Contact</a></li>
+                                <li><a href="watches.html">Categoriesa </a></li>
+                                <li><a href="watches.html">Watches</a></li>
+                                <li><a href="Jewellery.html">Jewellery</a></li>
+                                <li><a href="Handbag.html">Handbags</a></li>
+                                <li><a href="About.html">Our team </a></li>
+                                <li><a href="About.html">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2018, All Right Reserved <a
+                                    href="https://codepen.io/anupkumar92/">Anup</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html">Terms</a></li>
+                                <li><a href="index.html">Privacy</a></li>
+                                <li><a href="index.html">Policy</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Javascript Links -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- <script>
+      AOS.init();
+    </script> -->
+    <script src="index.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1300
+        });
+
+        // Event delegation to handle multiple cards
+        document.addEventListener("click", (event) => {
+            // Check if clicked button is an increase or decrease button
+            if (event.target.classList.contains("increaseBid") || event.target.classList.contains("decreaseBid")) {
+                const bidControls = event.target.closest(".bid-controls"); // Get the closest parent bid-controls div
+                const bidAmountElement = bidControls.querySelector(".bid-amount"); // Find the bid amount span
+                let bidAmount = parseFloat(bidAmountElement.getAttribute("data-bid")); // Read current bid value
+
+                // Adjust bid amount based on button clicked
+                if (event.target.classList.contains("increaseBid")) {
+                    bidAmount += 5;
+                } else if (event.target.classList.contains("decreaseBid") && bidAmount > 45) {
+                    bidAmount -= 5;
+                }
+
+                // Update UI and data attribute
+                bidAmountElement.setAttribute("data-bid", bidAmount.toFixed(2));
+                bidAmountElement.innerText = `$${bidAmount.toFixed(2)}`;
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
